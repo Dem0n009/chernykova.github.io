@@ -58,7 +58,7 @@ $(document).ready(function() {
 		$(this).find(".podrt_descr").attr("id", "work" + i);
 	});
 
-	$("input, select, textarea").jqBootstrapValidation();
+	//$("input, select, textarea").jqBootstrapValidation();
 
 	$(".top_mnu ul a").mPageScroll2id();
 
