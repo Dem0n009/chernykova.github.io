@@ -53,8 +53,8 @@ $(document).ready(function() {
 	});
 
 	$(".portfolio_item").each(function(i) {
-		$(this).find("a").attr("href", "#work " + i);
-		$(this).find(".podrt_descr").attr("id", "work " + i);
+		$(this).find("a").attr("href", "#work" + i);
+		$(this).find(".podrt_descr").attr("id", "work" + i);
 	});
 
 	$("input, select, textarea").jqBootstrapValidation();
