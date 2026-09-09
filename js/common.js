@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	$('.main_head').parallax();
 
 	$("#portfolio_grid").mixItUp();
 
